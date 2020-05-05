@@ -8,6 +8,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 //import jdk.internal.org.jline.utils.Log;
 
+import jdk.jfr.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -16,6 +17,10 @@ import ilex_ui_tests.pageobjects.*;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
+/*import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;*/
 
 public class StepDefinitions {
     public WebDriver driver;
@@ -69,6 +74,9 @@ public class StepDefinitions {
        LandingPage.logout(driver, wait);
     }
     //********************IOI***************
+    //@Severity(SeverityLevel.CRITICAL)
+    @Description("Login Test")
+   // @Story("Story Name : MOE213")
     @Given("^User Navigates to Login Page of Ilex$")
     public void user_Navigates_to_Login_Page_of_Ilex() throws Throwable
     {

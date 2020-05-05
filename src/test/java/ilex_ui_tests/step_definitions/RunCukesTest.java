@@ -5,6 +5,7 @@ import com.github.mkolisnyk.cucumber.runner.ExtendedCucumber;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
 import cucumber.api.CucumberOptions;
 import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
 import java.io.File;
@@ -31,6 +32,15 @@ import java.io.File;
 		monochrome = true
 		)
 public class RunCukesTest{
+
+	@BeforeClass()
+	public static void runTomcat() throws Exception {
+
+		// prepare reports folder
+		AllureReportConfigurationSetup.prepareAllureResultsFolder();
+	}
+
+
 	@AfterClass
 	public static void writeExtentReport() {
 		System.out.println("--------------After Class--------------");

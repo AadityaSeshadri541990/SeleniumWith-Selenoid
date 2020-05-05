@@ -10,7 +10,10 @@
 		<properties>
 			<maven.compiler.source>1.8</maven.compiler.source>
 			<maven.compiler.target>1.8</maven.compiler.target>
+			<allure.cucumber.version>2.0-BETA6</allure.cucumber.version>
 			<aspectj.version>1.8.10</aspectj.version>
+			<allure-maven>2.8</allure-maven>
+			<allure.reportVersion>2.3.1</allure.reportVersion>
 			<allure.results.directory>target/allure-results</allure.results.directory>
 		<allure.report.directory>target/allure-report</allure.report.directory>
 		</properties>
@@ -32,6 +35,12 @@
 				<artifactId>cucumber-testng</artifactId>
 				<version>1.2.0</version>
 			</dependency>-->
+			<dependency>
+				<!-- allure report dependencies -->
+				<groupId>io.qameta.allure</groupId>
+				<artifactId>allure-cucumber-jvm</artifactId>
+				<version>${allure.cucumber.version}</version>
+			</dependency>
 
 			<dependency>
 				<groupId>info.cukes</groupId>
@@ -119,6 +128,12 @@
 				<artifactId>commons-io</artifactId>
 				<version>2.6</version>
 			</dependency>
+			<dependency>
+				<groupId>io.qameta.allure</groupId>
+				<artifactId>allure-java-commons</artifactId>
+				<version>2.0-BETA6</version>
+				<scope>test</scope>
+			</dependency>
 
 			<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver -->
 			<!-- https://mvnrepository.com/artifact/org.monte/screen-recorder -->
@@ -142,6 +157,7 @@
 						<version>2.19.1</version>
 						<configuration>
 							<testFailureIgnore>true</testFailureIgnore>
+							<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 						</configuration>
 					</plugin>
 					<plugin>
@@ -174,6 +190,14 @@
 								<version>2.18</version>
 							</dependency>
 						</dependencies>
+					</plugin>
+					<plugin>
+						<groupId>io.qameta.allure</groupId>
+						<artifactId>allure-maven</artifactId>
+						<version>${allure-maven}</version>
+						<configuration>
+							<reportVersion>${allure.reportVersion}</reportVersion>
+						</configuration>
 					</plugin>
 				</plugins>
 			</pluginManagement>
