@@ -1,0 +1,32 @@
+[INFO  - 2020-04-09T04:57:51.936Z] GhostDriver - Main - running on port 12749
+[INFO  - 2020-04-09T04:57:52.243Z] Session [aadc3ff0-7a1e-11ea-8a37-8909d1c35cf9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-04-09T04:57:52.243Z] Session [aadc3ff0-7a1e-11ea-8a37-8909d1c35cf9] - page.customHeaders:  - {}
+[INFO  - 2020-04-09T04:57:52.243Z] Session [aadc3ff0-7a1e-11ea-8a37-8909d1c35cf9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-04-09T04:57:52.243Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: aadc3ff0-7a1e-11ea-8a37-8909d1c35cf9
+[ERROR - 2020-04-09T04:57:53.335Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408273282
+[ERROR - 2020-04-09T04:57:54.201Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408274169
+[ERROR - 2020-04-09T04:57:55.030Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408274986
+[ERROR - 2020-04-09T04:57:55.859Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408275814
+[ERROR - 2020-04-09T04:57:56.686Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408276644
+[ERROR - 2020-04-09T04:57:57.512Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408277470
+[ERROR - 2020-04-09T04:57:58.340Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408278298
+[ERROR - 2020-04-09T04:57:59.169Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408279126
+[ERROR - 2020-04-09T04:58:00.003Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408279952
+[ERROR - 2020-04-09T04:58:00.837Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408280791
+[ERROR - 2020-04-09T04:58:01.661Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408281620
+[ERROR - 2020-04-09T04:58:02.490Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408282448
+[ERROR - 2020-04-09T04:58:03.278Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408283275
+[ERROR - 2020-04-09T04:58:04.085Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408284062
+[ERROR - 2020-04-09T04:58:04.903Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408284865
+[ERROR - 2020-04-09T04:58:05.736Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408285692
+[ERROR - 2020-04-09T04:58:06.556Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408286520
+[ERROR - 2020-04-09T04:58:07.387Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408287343
+[ERROR - 2020-04-09T04:58:08.215Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408288172
+[ERROR - 2020-04-09T04:58:09.047Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408289004
+[ERROR - 2020-04-09T04:58:09.870Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408289832
+[ERROR - 2020-04-09T04:58:10.701Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408290656
+[ERROR - 2020-04-09T04:58:11.531Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408291489
+[ERROR - 2020-04-09T04:58:12.353Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408292317
+[ERROR - 2020-04-09T04:58:13.207Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408293142
+[ERROR - 2020-04-09T04:58:13.515Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1586408293482
+[INFO  - 2020-04-09T04:58:13.762Z] ShutdownReqHand - _handle - About to shutdown
