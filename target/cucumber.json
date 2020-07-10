@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1633952881,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigates to Login Page of Ilex",
+            "match": {
+              "location": "StepDefinitions.user_Navigates_to_Login_Page_of_Ilex()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2614803227,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start_execution()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Create User",
+        "description": "",
+        "id": "counterparty;create-user",
+        "after": [
+          {
+            "result": {
+              "duration": 56960709,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135343,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigated to My Network homepage",
+            "match": {
+              "location": "StepDefinitions.user_navigated_to_My_Network_homepage()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Counterparty",
+    "description": "",
+    "id": "counterparty",
+    "keyword": "Feature",
+    "uri": "features/01.Counterparty.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CPM"
+      }
+    ]
+  }
+]

@@ -1,4 +1,21 @@
 [INFO] [LandingPage] [Navigate_LandingPage] Class ------ LandingPage       Function -------Navigate_LandingPage 
  [INFO] [Reusable_Functions] [Navigate] Function ----Navigate----Navigated to Page and Maximized 
  [INFO] [Reusable_Functions] [waitForPageLoaded] Function ----waitForPageLoaded----Synchronized untill Page Loaded 
+ [INFO] [Reusable_Functions] [ValidatePageTitle] Function ----ValidatePageTitle----Page Title is Validated 
+ [INFO] [LandingPage] [Navigate_LandingPage] Class ------ LandingPage       Function -------Navigate_LandingPage 
+ [INFO] [Reusable_Functions] [Navigate] Function ----Navigate----Navigated to Page and Maximized 
+ [INFO] [Reusable_Functions] [waitForPageLoaded] Function ----waitForPageLoaded----Synchronized untill Page Loaded 
+ [INFO] [Reusable_Functions] [ValidatePageTitle] Function ----ValidatePageTitle----Page Title is Validated 
+ [INFO] [LandingPage] [Navigate_LandingPage] Class ------ LandingPage       Function -------Navigate_LandingPage 
+ [INFO] [Reusable_Functions] [Navigate] Function ----Navigate----Navigated to Page and Maximized 
+ [INFO] [Reusable_Functions] [waitForPageLoaded] Function ----waitForPageLoaded----Synchronized untill Page Loaded 
+ [INFO] [Reusable_Functions] [ValidatePageTitle] Function ----ValidatePageTitle----Page Title is Validated 
+ [INFO] [LandingPage] [Navigate_LandingPage] Class ------ LandingPage       Function -------Navigate_LandingPage 
+ [INFO] [Reusable_Functions] [Navigate] Function ----Navigate----Navigated to Page and Maximized 
+ [INFO] [Reusable_Functions] [waitForPageLoaded] Function ----waitForPageLoaded----Synchronized untill Page Loaded 
+ [INFO] [Reusable_Functions] [ValidatePageTitle] Function ----ValidatePageTitle----Page Title is Validated 
+ [INFO] [LandingPage] [Navigate_LandingPage] Class ------ LandingPage       Function -------Navigate_LandingPage 
+ [INFO] [Reusable_Functions] [Navigate] Function ----Navigate----Navigated to Page and Maximized 
+ [INFO] [Reusable_Functions] [waitForPageLoaded] Function ----waitForPageLoaded----Synchronized untill Page Loaded 
+ [INFO] [Reusable_Functions] [ValidatePageTitle] Function ----ValidatePageTitle----Page Title is Validated 
  

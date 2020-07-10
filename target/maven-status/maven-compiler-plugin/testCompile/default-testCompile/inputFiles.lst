@@ -1,0 +1,15 @@
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/pageobjects/InvestorSelection.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/step_definitions/RunCukesTest.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/pageobjects/Listing.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/step_definitions/StepDefinitions.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/pageobjects/Counterparty.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/step_definitions/Utilites.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/step_definitions/MyScreenRecorder.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/pageobjects/SEC.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/pageobjects/Deal_Invitation.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/pageobjects/IOI.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/step_definitions/Hooks.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/step_definitions/Reusable_Functions.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/pageobjects/LandingPage.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/pageobjects/Dashboard_Orders.java
+/IlexSeleniumTests/src/test/java/ilex_ui_tests/step_definitions/AllureReportConfigurationSetup.java

@@ -15,10 +15,10 @@ if [ -f $file ] ; then
     rm $file
 fi
 
-#docker pull selenoid/chrome:79.0
+docker pull selenoid/vnc:chrome_83.0
 #docker pull selenoid/vnc:firefox_72.0
 #docker pull selenoid/vnc:opera_66.0
-#docker pull selenoid/video-recorder:latest-release
+docker pull selenoid/video-recorder:latest-release
 
 
 docker-compose exec seleniumcode bash -c "mvn clean test $TEST_ARGS"
@@ -30,8 +30,8 @@ docker-compose exec seleniumcode bash -c "mvn clean test $TEST_ARGS"
 #docker cp cucumber-jvm-template-master_seleniumcode_1:/cucumber-jvm-template-master/target/ .
 #docker cp cucumber-jvm-template-master_seleniumcode_1:/cucumber-jvm-template-master/ExecutionLog.log .
 
-docker cp ilexseleniumtests_seleniumcode_1:/cucumber-jvm-template-master/target/ .
-docker cp ilexseleniumtests_seleniumcode_1:/cucumber-jvm-template-master/ExecutionLog.log .
+docker cp seleniumwithselenoidallure_seleniumcode_1:/IlexSeleniumTests/target/ .
+docker cp seleniumwithselenoidallure_seleniumcode_1:/IlexSeleniumTests/ExecutionLog.txt .
 
 
 #docker-compose build

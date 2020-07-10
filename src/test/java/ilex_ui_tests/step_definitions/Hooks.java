@@ -27,7 +27,7 @@ import java.util.Properties;
 public class Hooks {
 
     final Logger logger = Utilites.getLogData(Logger.class.getName());
-    public static WebDriver driver = null;
+    public static RemoteWebDriver driver = null;
     public static WebDriverWait wait;
     public static Scenario scenario;
     public static String OS_Name;
@@ -54,7 +54,25 @@ public class Hooks {
                 + "*******************docker*******************" + docker);
         if (exec.contentEquals("local"))
         {
-            temp = new File(System.getProperty("user.dir") + "/ExecutionLog.txt");
+            if (docker.contentEquals("Y"))
+            {
+                System.out.println("*********Inside Docker*********");
+                DesiredCapabilities capabilities = new DesiredCapabilities();
+                capabilities.setBrowserName("chrome");
+                capabilities.setVersion("83.0");
+                capabilities.setCapability("enableVNC", true);
+                capabilities.setCapability("enableVideo", true);
+
+                 driver = new RemoteWebDriver(
+                        URI.create("http://selenoid:4444/wd/hub").toURL(),
+                        capabilities
+                );
+               /* Hooks.scenario = scenario;
+                wait = new WebDriverWait(driver, 20);
+                System.out.println("Wait");*/
+                ;
+            }
+           /* temp = new File(System.getProperty("user.dir") + "/ExecutionLog.txt");
             if (temp.exists())
             {
                 RandomAccessFile raf = new RandomAccessFile(temp, "rw");
@@ -87,9 +105,9 @@ public class Hooks {
             {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
-            }
+            }*/
         }
-        else if (exec.contentEquals("EC2"))
+        /*else if (exec.contentEquals("EC2"))
         {
             System.out.println("exec_strategy as EC2");
             //DeleteDataTestDB();
@@ -102,9 +120,8 @@ public class Hooks {
             options.addArguments("--disable-gpu");
             driver = new ChromeDriver(options);
             System.out.println("Test ChromeDriver");
-        }
-        wait = new WebDriverWait(driver, 20);
-        System.out.println("Wait");
+        }*/
+
     }
 
     @After(order = 1)

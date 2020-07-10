@@ -1,0 +1,9 @@
+@CPM
+Feature: Counterparty
+
+  Background:                                  # features/01.Counterparty.feature:4
+    Given User Navigates to Login Page of Ilex # StepDefinitions.user_Navigates_to_Login_Page_of_Ilex()
+
+  @Reg
+  Scenario: Create User                        # features/01.Counterparty.feature:8
+    When User navigated to My Network homepage # StepDefinitions.user_navigated_to_My_Network_homepage()

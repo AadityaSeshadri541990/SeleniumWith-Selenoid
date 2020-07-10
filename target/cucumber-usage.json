@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^User Navigates to Login Page of Ilex$",
+    "steps": [
+      {
+        "name": "User Navigates to Login Page of Ilex",
+        "aggregatedDurations": {
+          "average": 1.633952881,
+          "median": 1.633952881
+        },
+        "durations": [
+          {
+            "duration": 1.633952881,
+            "location": "features/01.Counterparty.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User navigated to My Network homepage$",
+    "steps": [
+      {
+        "name": "User navigated to My Network homepage",
+        "aggregatedDurations": {
+          "average": 0.000135343,
+          "median": 0.000135343
+        },
+        "durations": [
+          {
+            "duration": 0.000135343,
+            "location": "features/01.Counterparty.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]
